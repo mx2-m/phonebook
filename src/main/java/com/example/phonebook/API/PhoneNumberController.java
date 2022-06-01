@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+@CrossOrigin(origins="http://localhost:3000")
 @RequestMapping("api/v1/phonenumber")
 @RestController
 public class PhoneNumberController {
